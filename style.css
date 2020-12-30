@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#p1 {
+    font-weight: bold;
+    font-size: 100px;
+    color: brown;
+}
+
+#p2 {
+    font-size: 30px;
+    color: Brown;
+    font-weight: bold;
+}
+
+#imgdrums {
+    width: 250px;
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: 13px;
+    border-radius: 100px;
+}
+
+#imgreading {
+    width: 250px;
+    height: 165px;
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: 13px;
+    border-radius: 100px;
+}
+
+#imgcoding {
+    width: 250px;
+    height: 165px;
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: 13px;
+    border-radius: 100px;
+}
+
+#p3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: purple;
+}
+
+#pp {
+    text-align: left;
+}
+
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: auto;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: palevioletred;
+    width: 70px;
+    margin: 8px auto;
+}
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: orangered;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: blueviolet;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.articlehover {
+    color: fuchsia;
+}
+
+#pinspiration {
+    font-size: 50px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
